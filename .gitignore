@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# PyTorch / Deep Learning
+*.pt
+*.pth
+models/shadow/
+models/checkpoints/
+.cache/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+sk_trade.db*
+
+# Logs
+*.log
+*.log.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.thumbs.db
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node (if any frontend tools)
+node_modules/
+npm-debug.log
+
+# Compiled MQL5
+*.ex5
+
+# MT5 config (local)
+ea_config.json
+
+# Backups
+*.bak
+*.backup
